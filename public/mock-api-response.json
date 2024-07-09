@@ -1,0 +1,222 @@
+{
+    "programs": [
+        {
+            "name": "25D - Residential Clean Energy Tax Credit",
+            "total_incentive_value": 6900000,
+            "total_tax_credit_amount_claimable": 6900000,
+            "total_cash_amount_claimable": 0,
+            "cap_amount": null,
+            "id": "ec1f2095-56c6-4cea-bbfc-2ccec11dd8fe",
+            "description": "The Residential Clean Energy Credit equals 30% of the costs of new, qualified clean energy property for your home installed anytime from 2022 through 2033. You may be able to take the credit if you made energy saving improvements to your home located in the United States.",
+            "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
+            "incentives": [
+                {
+                    "id": "573c6a6d-51d6-4d49-88f2-13e640ab62d9",
+                    "name": "25D - Residential Clean Energy Tax Credit - Wind turbines",
+                    "benefit_type": "tax-credit",
+                    "max_amount": 3000000,
+                    "min_amount": 600000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "wind_turbines"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "exclude",
+                            "name": "Exclude"
+                        }
+                    ]
+                },
+                {
+                    "id": "61544c19-9169-43bf-b801-62f7c7e35138",
+                    "name": "25D - Residential Clean Energy Tax Credit - Geothermal heat pumps",
+                    "benefit_type": "tax-credit",
+                    "max_amount": 1500000,
+                    "min_amount": 300000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "geothermal_hp"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "heat_pump_heating_and_cooling",
+                            "name": "Heat Pump Heating & Cooling"
+                        }
+                    ]
+                },
+                {
+                    "id": "69ab83bf-bd42-492c-834c-828019b5edd6",
+                    "name": "25D - Residential Clean Energy Tax Credit - Solar electric panels",
+                    "benefit_type": "tax-credit",
+                    "max_amount": 1500000,
+                    "min_amount": 300000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "solar_panels"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "solar",
+                            "name": "Solar"
+                        }
+                    ]
+                },
+                {
+                    "id": "ffcb41ab-1b0c-4894-b1e4-6c3ce7e47f41",
+                    "name": "25D - Residential Clean Energy Tax Credit - Battery storage technology",
+                    "benefit_type": "tax-credit",
+                    "max_amount": 600000,
+                    "min_amount": 150000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "battery_energy_storage"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "battery_storage_and_backup_power",
+                            "name": "Battery Storage & Backup Power"
+                        }
+                    ]
+                },
+                {
+                    "id": "ee678bde-cebb-449c-a4c5-00614cd72d8f",
+                    "name": "25D - Residential Clean Energy Tax Credit - Solar water heaters",
+                    "benefit_type": "tax-credit",
+                    "max_amount": 300000,
+                    "min_amount": 60000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "solar_water_heater"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "solar",
+                            "name": "Solar"
+                        }
+                    ]
+                }
+            ],
+            "utility_customer_requirements": [
+                "not_applicable"
+            ]
+        },
+        {
+            "name": "Colorado Affordable Residential Energy (CARE) Program",
+            "total_incentive_value": 1000000,
+            "total_tax_credit_amount_claimable": 0,
+            "total_cash_amount_claimable": 1000000,
+            "cap_amount": null,
+            "id": "9c40169c-3bc8-44b8-9f8b-113e0bd6a3ce",
+            "description": "Colorado’s Affordable Residential Energy (CARE) program provides income-qualified Coloradans in participating counties with free home energy efficiency upgrades for homeowners and renters.",
+            "url": "https://www.energyoutreach.org/care/",
+            "incentives": [
+                {
+                    "id": "31487e32-d770-4ec5-82fa-de3bef70f644",
+                    "name": "Colorado Affordable Residential Energy (CARE) Program - Energy Efficiency Improvements",
+                    "benefit_type": "no-cost",
+                    "max_amount": 1000000,
+                    "min_amount": 300000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "energy_efficiency_improvements"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "energy_efficiency_improvements",
+                            "name": "Energy Efficiency Improvements"
+                        }
+                    ]
+                }
+            ],
+            "utility_customer_requirements": [
+                "atmos_energy",
+                "black_hills_energy",
+                "city_of_gunnison_electric",
+                "colorado_natural_gas",
+                "gunnison_county_electric_association",
+                "holy_cross_energy",
+                "la_plata_electric_association",
+                "mountain_parks_electric",
+                "platte_river_power_authority",
+                "san_miguel_power_association",
+                "xcel_energy",
+                "yampa_valley_electric_association"
+            ]
+        }
+    ],
+    "not_combinable_with": [
+        {
+            "name": "Rebates Program (EW)",
+            "total_incentive_value": 1025000,
+            "total_tax_credit_amount_claimable": 0,
+            "total_cash_amount_claimable": 1025000,
+            "cap_amount": null,
+            "id": "b72e9d4a-745e-40a6-a2ef-8f4fbf303258",
+            "description": "Efficiency Works is a collaboration of common efficiency programs between the utilities of Estes Park Power & Communications, Fort Collins Utilities, Longmont Power & Communications, Loveland Water and Power and Platte River Power Authority.",
+            "url": "https://efficiencyworks.org/homes/rebates/",
+            "incentives": [
+                {
+                    "id": "d81d5d1c-50ea-4036-b06a-899ce9779958",
+                    "name": "Rebates Program (EW) - Ductless mini-splits",
+                    "benefit_type": "rebate",
+                    "max_amount": 675000,
+                    "min_amount": 75000,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "ductless_mini_split_ashp"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "heat_pump_heating_and_cooling",
+                            "name": "Heat Pump Heating & Cooling"
+                        }
+                    ]
+                },
+                {
+                    "id": "4abb6430-92d1-415b-93c2-b4625ee555a7",
+                    "name": "Rebates Program (EW) - cold climate ashp",
+                    "benefit_type": "rebate",
+                    "max_amount": 200000,
+                    "min_amount": null,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "cc_ashp"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "heat_pump_heating_and_cooling",
+                            "name": "Heat Pump Heating & Cooling"
+                        }
+                    ]
+                },
+                {
+                    "id": "cb79de25-f44e-44fc-ae59-9dbbd14c213b",
+                    "name": "Rebates Program (EW) - Air source heat pumps",
+                    "benefit_type": "rebate",
+                    "max_amount": 150000,
+                    "min_amount": null,
+                    "amount_range_reason": null,
+                    "upgrade_measures": [
+                        "electric_ashp"
+                    ],
+                    "upgrade_measure_groups": [
+                        {
+                            "slug": "heat_pump_heating_and_cooling",
+                            "name": "Heat Pump Heating & Cooling"
+                        }
+                    ]
+                }
+            ],
+            "utility_customer_requirements": [
+                "estes_park_power_and_communications",
+                "fort_collins_utilities",
+                "longmont_power_and_communications",
+                "loveland_water_and_power",
+                "platte_river_power_authority"
+            ]
+        }
+    ],
+    "metadata": {
+        "external_id": "123"
+    }
+}
