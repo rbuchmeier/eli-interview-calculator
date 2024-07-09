@@ -31,7 +31,7 @@ const SummaryPage = () => {
   return (
     <PageContent>
       <div className="flex flex-col gap-4">
-        <h1>Incentive Summary</h1>
+        <h1 className="text-2xl text-gray-900">Here's a summary of what you may qualify for</h1>
         { loading ? 
           <Spinner size="large" />
           :

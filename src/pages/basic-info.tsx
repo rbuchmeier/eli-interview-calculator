@@ -9,7 +9,7 @@ const BasicInfoPage = () => {
   return (
     <PageContent>
       <div className="flex flex-col gap-4">
-        <h1>Step 1: Basic Information</h1>
+        <h1 className="text-2xl text-gray-900">Start by telling us a bit about you</h1>
         <Input fullWidth label="Street Address" placeholder="e.g. 123 Main St." />
         <Input fullWidth label="City" placeholder="e.g. Denver" />
         <Input fullWidth label="State" placeholder="e.g. CO" />

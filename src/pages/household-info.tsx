@@ -16,7 +16,7 @@ const HouseholdInfoPage = () => {
   return (
     <PageContent>
       <div className="flex flex-col gap-4">
-        <h1>Step 2: Additional Information</h1>
+        <h1 className="text-2xl text-gray-900">Just a few more questions for ya</h1>
         <Input
           fullWidth
           label="Household Income"
