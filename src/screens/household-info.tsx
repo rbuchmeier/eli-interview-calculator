@@ -18,7 +18,7 @@ type Inputs = {
   taxFilingStatus: string;
 };
 
-const HouseholdInfoPage = () => {
+const HouseholdInfo = () => {
   const {
     control,
     handleSubmit,
@@ -97,7 +97,7 @@ const HouseholdInfoPage = () => {
               </RadioGroup>
             )}
           />
-          <Link href="#">
+          <Link href="/summary">
             <Button color="primary">Submit</Button>
           </Link>
         </form>
@@ -106,4 +106,4 @@ const HouseholdInfoPage = () => {
   );
 };
 
-export default HouseholdInfoPage;
+export default HouseholdInfo;
